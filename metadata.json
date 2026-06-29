@@ -1,0 +1,6 @@
+{
+  "name": "Life Sciences Multi-Agent R&D Framework",
+  "description": "An HD world-class mockup and exploratory sandbox of Google Cloud's Agentic AI Framework for Healthcare and Life Sciences R&D.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
