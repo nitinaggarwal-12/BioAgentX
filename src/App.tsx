@@ -155,7 +155,7 @@ export default function App() {
           animate={{ opacity: 1, y: 0 }}
           className="bg-emerald-950/90 border-b border-emerald-500/30 px-4 py-2.5 text-center z-30 shadow-md backdrop-blur-md sticky top-[65px]"
         >
-          <div className="max-w-7xl mx-auto flex items-center justify-center gap-2 text-xs font-mono text-emerald-300">
+          <div className="max-w-[1600px] mx-auto flex items-center justify-center gap-2 text-xs font-mono text-emerald-300">
             <ShieldCheck className="h-4 w-4 text-emerald-400 shrink-0" />
             <span>{saveBannerMsg}</span>
           </div>
@@ -163,7 +163,7 @@ export default function App() {
       )}
 
       {/* Main Content Dashboard */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="flex-1 max-w-[1600px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         
         {/* Quest Launcher Controls */}
         <OrchestratorControls 
@@ -309,7 +309,7 @@ export default function App() {
 
       {/* Footer System Architecture Bar */}
       <footer className="border-t border-slate-900 bg-slate-950 mt-auto">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-500">
+        <div className="max-w-[1600px] mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-500">
           <div className="flex items-center gap-2">
             <Cpu className="h-4 w-4 text-cyan-500" />
             <span>Google Cloud Healthcare & Life Sciences Agentic R&D Blueprint v2.4</span>
@@ -335,7 +335,7 @@ export default function App() {
             animate={{ height: 'auto', opacity: 1 }}
             className="bg-slate-900 border-t border-slate-800/80 px-4 py-6 text-xs font-mono"
           >
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 text-slate-300">
+            <div className="max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 text-slate-300">
               <div>
                 <h5 className="text-cyan-400 font-bold mb-1.5 uppercase">1. Knowledge Graph Tier</h5>
                 <p className="text-[11px] text-slate-400">Vertex AI Search connected to PubMed abstracts (14M nodes), ChEMBL assays, & WIPO global patent registries.</p>
